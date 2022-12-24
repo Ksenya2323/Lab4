@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<items>
+<item id="1"><name>Name</name><cost>123</cost><info>SOme</info><height>30</height><width>40</width><img>./uploads/3Blok.jpg</img></item><item id="2"><name>Me</name><cost>1234</cost><info>sadf</info><height>12</height><width>123</width><img>./uploads/2Blok.jpg</img></item><item id="3"><name>Name 123</name><cost>1</cost><info>Some text here</info><height>40</height><width>60</width><img>./uploads/1Blok.jpg</img></item></items>
