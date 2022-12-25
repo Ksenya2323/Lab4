@@ -1,0 +1,799 @@
+body {
+    width: 1440px;
+    background-color: white;
+    font-family: 'Segoe UI';
+	font-weight: 400;
+	font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+    margin: 0;
+}
+
+.containerGlav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+/* блок меню сверху */
+.top-van-menu-container {
+    padding-left: 10px 60px;
+    background-color: white;
+    border-bottom: 1px solid #AE7C78;
+    border-top: 1px solid #AE7C78;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+}
+
+.top-van-menu-container div{
+    padding: 23px 60px;
+    font-size: 16px;
+    line-height: 20px;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.toggle-bth {
+    display: none;
+}
+
+.top-van-menu-container div:hover {
+    background-color: rgb(250, 237, 237);
+}
+
+.top-van-menu-container a {
+    display: block;
+    text-decoration: none;
+    color: #AE7C78;
+}
+
+.top-van-menu-container a:visited {
+    color: #AE7C78;
+}
+
+/* блок первой страницы */
+
+.column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 82px 50px;
+}
+
+.top-left {
+    width: 500px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 59px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.top-right {
+    display: flex;
+    justify-content: center;
+}
+
+#Naclon {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 59px;
+}
+
+#Menshe {
+    font-family: 'Segoe UI';
+	font-weight: normal;
+	font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+.Look {
+    width: 285px;
+    height: 80px;
+    background-color: #D89999;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 100;
+    color: white;
+    font-size: 16px;
+    border-radius: 60px;
+    text-align: center;
+    line-height: 70px;
+    position: left;
+}
+
+.Look a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.Look a:visited {
+    color: white;
+}
+
+.Look:hover {
+    background-color:#f1b6b6;
+}
+
+/* блок с короткой информацией (3) */
+
+.short {
+    margin-top: 64px;
+    margin-bottom: 83px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+}
+
+.shortBox {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.Box {
+    width: auto;
+    margin-right: 20px;
+}
+
+.blocks {
+    width: auto;
+    height: auto;
+    margin-right: 80px;
+    text-align: left;
+}
+
+img {
+    float: none;
+}
+
+.Z1 {
+    width: 199px;
+    height: 20px;
+    margin-bottom: 8px;
+    font-family: 'Segoe UI';
+	font-weight: 700;
+	font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.Z2 {
+    width: 260px;
+	font-weight: 400;
+	font-style: inherit;
+}
+
+/* блок "Популярные букеты" */
+
+.BlockYellow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 64px;
+    justify-content: center;
+}
+
+.Popular {
+    margin-left: auto;
+    margin-right: auto;
+    height: 48px;
+    width: 350px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    font-family:'PlayfairDisplay';
+    font-style: normal;
+}
+
+.PopBlock {
+    display: flex;
+    flex-direction: column;
+    width: 378px;
+    height: 411px;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.Pop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nehz {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.NehZ1 {
+    width: 360px;
+    text-align: left;
+}
+
+.Klick {
+    width: 285px;
+    height: 80px;
+    background-color: #D89999;
+    border-radius: 60px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 70px;
+}
+
+.Klick a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.Klick a:visited {
+    color: white;
+}
+
+.Klick:hover {
+    background-color: #f1b6b6;
+}
+
+/* блок скидка 10% */
+
+.column2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+    padding-bottom: 64px;
+}
+
+#SaleLeft {
+    height: 271px;
+    width: 450px;
+    background-color: #AE7C78;
+    color: white;
+    padding: 60px 90px;
+}
+
+#Sale {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 44px;
+    line-height: 49px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#SaleText {
+    width: 375px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+}
+
+/* блок каталога */
+
+.Katalog {
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+}
+
+.position {
+    width: 360px;
+    height: 411px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.position > img {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.position > div {
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 40%;
+}
+
+.position .H {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    font-family:'PlayfairDisplay';
+    font-style: normal;
+}
+
+/* блок с отзывами */
+
+.Otziv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 308px;
+    width: auto;
+    border: 1px solid #AE7C78;
+}
+
+.Ottz {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 58px;
+    font-family:'PlayfairDisplay';
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+.Ottz a {
+    display: block;
+    text-decoration: none;
+    color: #AE7C78;
+}
+
+.Ottz a:visited {
+    color: #AE7C78;
+}
+
+.OtzColumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.OtzOts {
+    width: 260px;
+}
+
+.OtzName {
+    font-family:'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+/* блок футер */
+
+.Futer {
+    margin-top: 50px;
+    width: 100%;
+    height: 97px;
+    background-color: #AE7C78;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Futer div {
+    width: 200px;
+    line-height: 100px;
+}
+
+.Futer div:hover {
+    background-color: #c78f8f;
+}
+
+.Futer a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.Futer a:visited {
+    color: white;
+}
+
+#topNavMenu {
+    top: -420px;
+}
+
+#topNavMenu.active {
+    top: 0px;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+@media screen and (max-width:1160px){
+
+    .top-van-menu-container {
+        position: fixed;
+        border: 1px solid #AE7C78;
+        font-size: 1.1em;
+        flex-direction: column;
+        width: 90%;
+        margin: 1% 5%;
+        background-color:#ffffff;
+        border-radius: 12px;
+        border: none;
+        transition: 2s;
+    }
+
+    .top-van-menu-container > a > div {
+        width: auto;
+        border-radius: 60px;
+    }
+
+    .top-van-menu-container .toggle-bth {
+        display: flex;
+        position: absolute;
+        left: 10px;
+        top: 420px;
+        flex-direction: column;
+        background-color:#f1b6b6;
+        padding: 10px;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+
+    #topNavMenu .toggle-bth span {
+        width: 25px;
+        height: 2px;
+        background-color: black;
+        margin: 4px;
+    }
+
+    #topNavMenu .toggle-bth:hover span{
+        background-color:#AE7C78;
+    }
+
+    #topNavMenu .toggle-bth:hover {
+        background-color:#f7d5d5;
+    }
+
+    /* блок первой страницы */
+
+    .column {
+        width: 100%;
+        flex-direction: column;
+        padding: 0px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-left {
+        margin-top: 25px;
+    }
+
+    .top-right {
+        padding-top: 100px;
+        padding-right: 0px;
+        padding-bottom: 100px;
+        align-items: center;
+        height: 320px;
+        width: auto;
+    }
+
+    .top-right img {
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+        padding-right: 0px;
+        align-items: center;
+    }
+
+    #Naclon {
+        font-size: 40px;
+    }
+
+    #Menshe {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 34px;
+    }
+
+    /* блок с короткой информацией (3) */
+
+    .blocks {
+        margin-right: 0;
+    }
+
+    .short {
+        width: 100%;
+        margin-top: 0px;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .shortBox {
+        width: auto;
+        padding-bottom: 45px;
+    }
+
+    .Box {
+        width: 82px;
+    }
+
+    /* блок "Популярные букеты" */
+
+    .Pop {
+        flex-direction: column;
+    }
+
+    .Popular {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    
+    #PopBlock {
+        width: 100%;
+        height: 370px;
+        align-items: center;
+    }
+
+    #NehZ1 {
+        text-align: center;
+    }
+
+    .Pop img {
+        width: 360px;
+        height: auto;
+    }
+
+    /* блок скидка 10% */
+
+    .column2 {
+        width: 360px;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+        align-items: center;
+    }
+
+    #SaleLeft {
+        width: 360px;
+        height: auto;
+        padding: 60px 0px;
+    }
+
+    #Sale {
+        text-align: center;
+        font-size: 38px;
+        line-height: 39px;
+    }
+
+    #SaleText {
+        width: 320px;
+        font-size: 19px;
+        margin: 0px 20px;
+    }
+
+    /* блок каталога */
+
+    .Katalog {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* блок с отзывами */
+
+    .Otziv {
+        width: auto;
+        height: auto;
+        border: none;
+    }
+
+    .OtzColumn {
+        flex-direction: column;
+    }
+
+    .OtzName{
+        margin-bottom: 40px;
+    }
+
+    /* блок футер */
+
+    .Futer {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .Futer div {
+        width: 100%;
+        line-height: 50px;
+    }
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+@media screen and (max-width:360px){
+
+    /* блок первой страницы */
+
+    .column {
+        flex-direction: column;
+        padding: 0px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-left {
+        width: 360px;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .top-right {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        align-items: center;
+        height: 320px;
+        width: 360px;
+    }
+
+    .top-right img {
+        width: 360px;
+        height: auto;
+        margin: 0 0 0 0;
+        padding-right: 0px;
+        align-items: center;
+    }
+
+    #Naclon {
+        font-size: 40px;
+    }
+
+    #Menshe {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 34px;
+    }
+
+    /* блок с короткой информацией (3) */
+
+    .short {
+        margin-top: 0px;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .shortBox {
+        width: auto;
+        padding-bottom: 20px;
+    }
+
+    .Box {
+        width: 82px;
+    }
+
+    /* блок "Популярные букеты" */
+
+    .Pop {
+        flex-direction: column;
+    }
+
+    .Popular {
+        width: 360px;
+        padding-bottom: 0px;
+    }
+    
+    #PopBlock {
+        width: 360px;
+        height: 370px;
+        align-items: center;
+    }
+
+    #NehZ1 {
+        text-align: center;
+    }
+
+    .Pop img {
+        width: 360px;
+        height: auto;
+    }
+
+    /* блок скидка 10% */
+
+    .column2 {
+        width: 360px;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+        align-items: center;
+    }
+
+    #SaleLeft {
+        width: 340px;
+        height: auto;
+        padding: 60px 10px;
+    }
+
+    #Sale {
+        text-align: center;
+        font-size: 38px;
+        line-height: 39px;
+    }
+
+    #SaleText {
+        width: 300px;
+        font-size: 19px;
+    }
+
+    /* блок каталога */
+
+    .Katalog {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* блок с отзывами */
+
+    .Otziv {
+        width: 360px;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .OtzColumn {
+        flex-direction: column;
+    }
+
+    .OtzName{
+        margin-bottom: 40px;
+    }
+
+    /* блок футер */
+
+    .Futer {
+        flex-direction: column;
+        height: auto;
+        width: 360px;
+    }
+
+    .Futer div {
+        width: 100%;
+        line-height: 50px;
+    }
+}
+

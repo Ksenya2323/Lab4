@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 30px;
+}
+
+.slide-img {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.Pop {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+
+.Pop * {
+    margin-top: 10px;
+}
+
+.PopBlock {
+    margin-top: 0;
+}
